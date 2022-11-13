@@ -1,7 +1,8 @@
 @import './button';
 .hero {
     background-color: #2F303A;
-    background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/bcg-main.jpeg);
+    background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../../../images/bcg-main.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

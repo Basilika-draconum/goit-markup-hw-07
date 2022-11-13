@@ -459,8 +459,8 @@ img {
 
 .hero {
   background-color: #2F303A;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../images/bcg-main.jpeg);
-  background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/bcg-main.jpeg);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../../images/bcg-main.jpeg);
+  background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../../images/bcg-main.jpeg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -748,7 +748,7 @@ img {
   height: 15px;
   margin-right: 7px;
   border-radius: 2px;
-  background-image: url(../images/box.svg);
+  background-image: url(../../../images/box.svg);
   background-size: contain;
   cursor: pointer;
 }
@@ -763,13 +763,13 @@ img {
   background-color: var(--accent-color);
   border-radius: 2px;
   border: 1px solid var(--accent-color);
-  background-image: url(../images/yes.svg);
+  background-image: url(../../../images/yes.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .agreement input:focus + label::before {
-  background-image: url(../images/yes.svg);
+  background-image: url(../../../images/yes.svg);
   background-repeat: no-repeat;
   background-position: center;
   border: 1px solid var(--accent-color);
@@ -777,7 +777,7 @@ img {
 }
 
 .agreement input:checked:focus + label::before {
-  background-image: url(../images/yes.svg);
+  background-image: url(../../../images/yes.svg);
   background-repeat: no-repeat;
   background-position: center;
   border: 1px solid var(--accent-color);
