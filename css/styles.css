@@ -24,6 +24,9 @@ body{
     margin:0 auto;
     padding: 0 15px;
 }
+.section{
+    padding: 94px 0;
+}
 
 button{
     cursor: pointer;
@@ -60,9 +63,11 @@ img{
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    margin-right: 93px;
 }
 .header__logo{
+    margin-right: 93px;
+}
+.header__logo--black{
     color: #000000;
 }
 
@@ -588,7 +593,7 @@ margin-right: 30px;
     margin-left: 15px
 }
 
-.footer__logo{
+.footer__logo--white{
     color:var(--c-white);
 }
 .address-nav{
@@ -681,9 +686,6 @@ margin-right: 30px;
 }
 
 /* Portfolio */
-.section{
-    padding: 94px 0;
-}
 .filter-block{
     margin-bottom: 50px;
 }
