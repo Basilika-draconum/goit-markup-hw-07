@@ -288,44 +288,44 @@
         <!--Постійні клієнти-->
         <section class="section">
             <h2 class="title">Постійні клієнти</h2>
-            <ul class="constant-clients">
+            <ul class="clients">
                 <li>
-                    <a href="#" class="client-link" target="_blank" rel="noopener norefferer">
+                    <a href="#" class="client__link" target="_blank" rel="noopener norefferer">
                         <svg class="icon icon-group" width="41" height="47">
                             <use xlink:href="./images/icons.svg#icon-group"></use>
                         </svg>
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="client-link" target="_blank" rel="noopener norefferer">
+                    <a href="#" class="client__link" target="_blank" rel="noopener norefferer">
                         <svg class="icon icon-group-2" width="40" height="52">
                             <use xlink:href="./images/icons.svg#icon-group-2"></use>
                         </svg>
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="client-link" target="_blank" rel="noopener norefferer">
+                    <a href="#" class="client__link" target="_blank" rel="noopener norefferer">
                         <svg class="icon icon-group-3" width="44" height="41">
                             <use xlink:href="./images/icons.svg#icon-group-3"></use>
                         </svg>
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="client-link" target="_blank" rel="noopener norefferer">
+                    <a href="#" class="client__link" target="_blank" rel="noopener norefferer">
                         <svg class="icon icon-group-4" width="85" height="41">
                             <use xlink:href="./images/icons.svg#icon-group-4"></use>
                         </svg>
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="client-link" target="_blank" rel="noopener norefferer">
+                    <a href="#" class="client__link" target="_blank" rel="noopener norefferer">
                         <svg class="icon icon-group-5" width="63" height="46">
                             <use xlink:href="./images/icons.svg#icon-group-5"></use>
                         </svg>
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="client-link" target="_blank" rel="noopener norefferer">
+                    <a href="#" class="client__link" target="_blank" rel="noopener norefferer">
                         <svg class="icon icon-group-6" width="94" height="44">
                             <use xlink:href="./images/icons.svg#icon-group-6"></use>
                         </svg>
@@ -334,37 +334,37 @@
             </ul>
         </section>
         <!--Модальне вікно-->
-        <div class="modal-wrap is-hidden" data-modal>
+        <div class="backdrop is-hidden" data-modal>
             <div class="modal-window">
                 <button data-modal-close type="button" class="close-button"></button>
-                <p class="title-modal">Залиште свої дані, ми вам передзвонимо</p>
-                <form action="#" class="form-modal">
+                <p class="modal-window__title">Залиште свої дані, ми вам передзвонимо</p>
+                <form action="#" class="modal-window__form">
 
-                    <div class="form-row">
-                        <label class="label-modal" for="user-name">Ім'я</label>
-                        <input type="text" name="user-name" id="user-name" class="input-modal">
+                    <div class="modal-window__row">
+                        <label class="modal-window__label" for="user-name">Ім'я</label>
+                        <input type="text" name="user-name" id="user-name" class="modal-window__input">
                         <svg class="icon icon-person icon-modal" width="12" height="12">
                             <use xlink:href="./images/icons.svg#icon-person"></use>
                         </svg>
                     </div>
-                    <div class="form-row">
-                        <label class="label-modal" for="phone-number">Телефон</label>
-                        <input type="tel" name="phone-number" id="phone-number" class="input-modal">
+                    <div class="modal-window__row">
+                        <label class="modal-window__label" for="phone-number">Телефон</label>
+                        <input type="tel" name="phone-number" id="phone-number" class="modal-window__input">
                         <svg class="icon icon-phone-black icon-modal" width="13" height="13">
                             <use xlink:href="./images/icons.svg#icon-phone-black"></use>
                         </svg>
                     </div>
-                    <div class="form-row">
-                        <label class="label-modal" for="email">Пошта</label>
-                        <input type="email" name="email" id="email" class="input-modal">
+                    <div class="modal-window__row">
+                        <label class="modal-window__label" for="email">Пошта</label>
+                        <input type="email" name="email" id="email" class="modal-window__input">
                         <svg class="icon icon-letter icon-modal" width="15" height="12">
                             <use xlink:href="./images/icons.svg#icon-letter"></use>
                         </svg>
                     </div>
-                    <div class="form-row">
-                        <label class="label-modal" for="comment">Коментар</label>
+                    <div class="modal-window__row">
+                        <label class="modal-window__label" for="comment">Коментар</label>
                         <textarea name="comment" id="comment" rows="8" placeholder="Введіть текст"
-                            class="comment-modal"></textarea>
+                            class="modal-window__comment"></textarea>
                     </div>
                     <div class="agreement">
                         <input type="checkbox" name="mail-send" id="mail-send">
@@ -372,8 +372,8 @@
                         </label>
                         <a href="#" target="_blank" rel="noopener noreferrer">Умови договору</a>
                     </div>
-                    <div class="btn-wrap-modal">
-                        <button type="submit" class="btn-modal">Відправити</button>
+                    <div class="modal-wrap__button">
+                        <button type="submit" class="button modal-window__button">Відправити</button>
                     </div>
                 </form>
             </div>

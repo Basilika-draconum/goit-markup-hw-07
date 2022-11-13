@@ -321,7 +321,7 @@ margin-right: 30px;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* Constant clients */
-.constant-clients{
+.clients{
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
@@ -331,7 +331,7 @@ margin-right: 30px;
 
 }
  
-.client-link{
+.client__link{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -342,8 +342,8 @@ margin-right: 30px;
     background-color: transparent;
     fill:#afb1b8;
 }
-.client-link:hover,
-.client-link:focus{
+.client__link:hover,
+.client__link:focus{
     fill: var(--accent-color);
     background-color: var(--c-white);
     border-color: var(--accent-color);
@@ -351,7 +351,7 @@ margin-right: 30px;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* Modal window */
-.modal-wrap{
+.backdrop{
     display: none;
     z-index: 777;
     position:fixed;
@@ -368,7 +368,7 @@ margin-right: 30px;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-wrap.is-hidden {
+.backdrop.is-hidden {
     /* visibility: hidden; */
     opacity: 0;
     pointer-events: none;
@@ -427,7 +427,7 @@ margin-right: 30px;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.title-modal {
+.modal-window__title {
     font-weight: 700;
     font-size: 20px;
     line-height: 1.15;
@@ -435,32 +435,32 @@ margin-right: 30px;
     margin-bottom: 12px;
     color: var(--primary-text-color);
 }
-.form-modal {
+.modal-window__form{
     max-width: 448px;
 
 }
-.form-row:not(:last-child){
+.modal-window__row:not(:last-child){
     margin-bottom: 10px;
 }
-.form-row{
+.modal-window__row{
     position: relative;
     font-size: 12px;
     line-height: 1.16667;
     letter-spacing: 0.01em;
 }
-.form-row .icon-modal{
+.modal-window__row .icon-modal{
     position: absolute;
     bottom: 14px;
     left: 12px;
 
 }
-.label-modal {
+.modal-window__label {
     display: block;
     margin-bottom: 4px;
     color: var(--secondary-text-color);
 }
 
-.input-modal{
+.modal-window__input{
     display: block;
     width: 100%;
     height: 40px;
@@ -473,20 +473,20 @@ margin-right: 30px;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.input-modal::placeholder {
+.modal-window__input::placeholder {
     color: rgba(117, 117, 117, 0.5);
 }
-.input-modal:focus {
+.modal-window__input:focus {
     border: 1px solid var(--accent-color);
     border-radius: 4px;
 }
 
-.input-modal:focus + .icon-modal{
+.modal-window__input:focus + .icon-modal{
     fill: var(--accent-color);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.comment-modal{
+.modal-window__comment{
     width: 100%;
     resize: none;
     padding: 12px 16px;
@@ -498,7 +498,7 @@ margin-right: 30px;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.comment-modal:focus{
+.modal-window__comment:focus{
     border: 1px solid var(--accent-color);
     border-radius: 4px;
 }
@@ -508,9 +508,6 @@ margin-right: 30px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
-}
-.agreement input{
-    appearance: none;
 }
 .agreement label{
     position: relative;
@@ -526,6 +523,9 @@ margin-right: 30px;
     background-size: contain;
     /* border: 1px solid var(--secondary-text-color); */
     cursor: pointer;
+}
+.agreement input {
+    appearance: none;
 }
 .agreement input:checked+label::before {
     background-color: var(--accent-color);
@@ -556,30 +556,21 @@ margin-right: 30px;
     text-decoration-skip-ink: none;
 }
 
-.btn-wrap-modal{
+.modal-wrap__button{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.btn-modal{
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: var(--c-white);
-    background-color: var(--accent-color);
-    border: none;
+.modal-window__button{
     padding: 10px 52px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
     margin-top: 30px;
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.btn-modal:hover,
-.btn-modal:focus{
+.modal-window__button:hover,
+.modal-window__button:focus{
     background-color: #188CE8;
 }
 /* Footer general */
