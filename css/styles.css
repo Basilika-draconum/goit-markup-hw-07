@@ -577,12 +577,12 @@ margin-right: 30px;
 .footer{
     background-color: #2F303A;
 }
-.footer-block{
+.footer__block{
     display: flex;
     padding: 60px 0;
     align-items: baseline;
 }
-.footer-first{
+.footer__first{
     display: flex;
     flex-direction: column;
     margin-right: 70px;
@@ -617,7 +617,7 @@ margin-right: 30px;
 .address-nav .link-address{
     color: var(--c-white);
 }
-.footer-second{
+.footer__second{
     margin-right: 93px;
 }
 .socials-signin{

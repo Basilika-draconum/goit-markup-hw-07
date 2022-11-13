@@ -7,7 +7,7 @@
     label {
         position: relative;
 
-        &::before {
+        &::before{
             display: inline-block;
             content: "";
             width: 16px;
@@ -24,7 +24,7 @@
     appearance: none;
 }
 
-.agreement input:checked+label::before {
+.agreement input:checked+label::before{
     background-color: var(--accent-color);
     border-radius: 2px;
     border: 1px solid var(--accent-color);
@@ -33,7 +33,7 @@
     background-position: center;
 }
 
-.agreement input:focus+label::before {
+.agreement input:focus+label::before{
     background-image: url(../images/yes.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -41,7 +41,7 @@
     outline: 1px solid var(--accent-color);
 }
 
-.agreement input:checked:focus+label::before {
+.agreement input:checked:focus+label::before{
     background-image: url(../images/yes.svg);
     background-repeat: no-repeat;
     background-position: center;

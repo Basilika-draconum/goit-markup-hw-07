@@ -1,6 +1,6 @@
 @import './modal-agreement';
 
-.backdrop{
+.backdrop {
     display: none;
     z-index: 777;
     position: fixed;
@@ -18,7 +18,7 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.backdrop.is-hidden{
+.backdrop.is-hidden {
     opacity: 0;
     pointer-events: none;
     scale: 2.5;
