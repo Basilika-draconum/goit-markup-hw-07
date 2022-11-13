@@ -32,11 +32,14 @@ button{
 a{
     text-decoration: none;
 }
+ul{
+    list-style-type: none;
+}
 img{
     display: block;
 }
 /* Header general */
-.header{
+.page-header{
     color:var(--c-white);
     letter-spacing: 0.02em;
     border-bottom: 1px solid #ECECEC;
@@ -61,11 +64,7 @@ img{
 .logo-first{
     color: #000000;
 }
-.list{
-    list-style-type: none;
-    text-decoration: none;
-    
-}
+
 .site-nav{
     display: flex;
     align-items: center;
