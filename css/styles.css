@@ -200,14 +200,14 @@ img{
     font-size: 36px;
     text-align: center;
 }
-.adv-list{
+.advantages__list{
     display:flex;
     gap: 30px;
 }
-.adv-item{
+.advantages__item{
     max-width: 270px;
 }
-.image-icon{
+.adv-icon{
     max-width: 270px;
     margin-bottom: 30px;
     text-align: center;
