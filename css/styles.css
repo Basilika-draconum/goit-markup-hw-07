@@ -586,7 +586,8 @@ margin-right: 30px;
     display: flex;
     flex-direction: column;
     margin-right: 70px;
-    margin-left: 15px
+    margin-left: 15px;
+    width: 231px;
 }
 
 .footer__logo--white{
@@ -609,7 +610,7 @@ margin-right: 30px;
     margin-bottom: 9px;
 }
 
-.footer-address.link:hover,
+.footer-address .link:hover,
 .footer-address .link:focus{
     color: var(--accent-color);
 }
